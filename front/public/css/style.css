@@ -1,0 +1,269 @@
+
+
+@font-face {
+	font-family: "XtrudeRegular";
+	src: url("../fonts/xtrude/XtrudeRegular.ttf");
+}
+
+@font-face {
+	font-family: "GameOfSquidsRegular";
+	src: url("../fonts/game-of-squids/Game Of Squids.ttf");
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+	color: #333;
+	text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+
+
+.cover-container {
+	max-width: 42em;
+}
+
+
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container, nav, .navbar, .fill-space{
+	display: flex;
+	flex-direction: column;
+
+	margin: 0;
+	padding: 0;
+ }
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.no-margin {
+	margin: 0 !important;
+}
+
+html, body {
+	margin:0px;
+	height:100%;
+}
+
+/*Header*/
+
+.nav-masthead .nav-link {
+	padding: .25rem 0;
+	font-weight: 700;
+	color: rgba(255, 255, 255, .5);
+	background-color: transparent;
+	border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+	border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+	margin-left: 1rem;
+}
+
+.nav-masthead .active {
+	color: #fff;
+	border-bottom-color: #fff;
+}
+
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+
+	.vertical-center-row {
+		display: flex;
+		align-items: center !important;
+		vertical-align: middle !important;
+	}
+}
+
+.body {
+
+	background-image: url(../imgs/background2.jpg);
+		
+}
+
+
+/* Main styles */
+
+.calculator-body {
+	background-image: url(../imgs/background2.jpg);
+}
+
+.calculator-signin-text {
+	font-family: "Liberation Mono";
+	font-size: 16pt;
+}
+
+
+.calculator-navbar {
+	background-color: #202020;
+}
+
+.calculator-navbar-text {
+	font-family: "Liberation Mono";
+	font-size: 16pt;
+}
+
+
+.calculator-navbar-logo {
+	height: 46px;
+	
+}
+
+/*properties for home page text under menu*/
+.calculator-main-logo {
+	font-size: calc(50% + 8vw + 1vh);
+	font-family: 'GameOfSquidsRegular';
+	color: rgb(17, 16, 20);
+	
+}
+.calculator-main-logo-subtext {
+	font-size: calc(100% + 2vw + 1vh);
+	font-family: "Liberation Mono";
+	color: rgb(17, 16, 20);
+	/*text-shadow: black 4px 5px 0;*/
+}
+.forms-text{
+	/*font-size: calc(100% + 4vw + 1vh);*/
+	/*font-family: 'GameOfSquidsRegular';*/
+	font-size: 16pt;
+	color: rgb(17, 16, 20);
+
+}
+
+
+.calculator-text {
+	font-family: "Liberation Mono";
+	font-size: 16pt;
+	color: rgb(17, 16, 20);
+}
+
+.calculator-footer-text {
+	font-family: "Liberation Mono";
+	font-size: 16pt;
+}
+
+
+/*   */
+
+.register-termsofservice-text {
+	font-size: calc(30% + 1vw + 0vh);
+}
+
+
+/*   */
+
+
+.form-signin {
+	width: auto;
+	/*max-width: 330px;*/
+	padding: 15px;
+	margin: auto;
+}
+
+.form-signin .checkbox {
+	font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+	z-index: 2;
+}
+
+.form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+
+/* about page styles  */
+
+.calculator-about-logo {
+	font-size: calc(100% + 4vw + 1vh);
+	font-family: 'GameOfSquidsRegular';
+	color: rgb(0, 0, 0);
+	
+}
+
+.profile-text {
+	
+	color: rgb(0, 0, 0);
+	
+}
+.calculator-about-logo-subtext {
+	font-size: calc(100% + 1vw + 1vh);
+	font-family: "Liberation Mono";
+	color: rgb(0, 0, 0);
+	/*text-shadow: black 4px 5px 0;*/
+}
+
+
+
+
+
+
+
+.calculator-bit {
+	width: 50%;
+	height: 100%;
+}
+
+.btn-sq-lg {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.btn-sq {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.btn-sq-sm {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.btn-sq-xs {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.bgn-image {
+background-color: #0D6EFD;
+
+}
+
+.button5 {border-radius: 20px;}
+
+
+
+
